@@ -246,6 +246,10 @@ section.hero {
 }
 
 
+
+
+
+
 @media (width<80rem){
     section.hero{
         flex-direction: column-reverse;
@@ -267,6 +271,11 @@ section.hero {
            
             height: 2.5rem;
          
+        }
+
+        & .buttons {
+            display: flex;
+            flex-direction: column-reverse;
         }
 
     }
